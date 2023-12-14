@@ -6,7 +6,7 @@ main()
 	printf(" enter the ");
 	gets(a);
 	int l=strlen(a);
-     l=l-1;
+   	  l=l-1;
 	int i,ch=0;
 	
 	for(i=0;i<l;i++)
