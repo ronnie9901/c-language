@@ -6,28 +6,24 @@ struct stu
 };
 int main()
 {
-	struct stu s[5];
+	struct stu s[3];
 	char name[100];
  	int i,an;
  	float re;
- 	for(i=0; i<5; i++)
+ 	for(i=0; i<3; i++)
  	{
 		printf("Enter  name : ");
 		scanf(" %[^\n]s",&s[i].name);
-		
 		printf("Enter  roll no. : ");
 		scanf("%d",&s[i].rollno);
-		
-		printf("\nEnter the chem_marks : ");
+		printf("\nEnter chem : ");
 		scanf("%d",&s[i].chem);
-		
-		printf("\nEnter the maths_marks : ");
+		printf("\nEnter  maths : ");
 		scanf("%d",&s[i].math);
-		
-		printf("\nEnter the phy_marks : ");
+		printf("\nEnter phy : ");
 		scanf("%d",&s[i].phy);
 	}
- 	for(i=0; i<5; i++)
+ 	for(i=0; i<3; i++)
  	{
  		printf("%s",s[i].name);
  		printf("Che  : %d\n",s[i].chem);
