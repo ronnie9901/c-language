@@ -9,4 +9,4 @@ int main()
 		x++;
 	}
 }
-//while loop
+
