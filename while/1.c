@@ -8,6 +8,6 @@ int main()
 		printf("%d ",x);
 		x++;
 	}
-	//while loop
+	
 }
 
